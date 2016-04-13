@@ -1,0 +1,14 @@
+PODS:
+  - HTTPCnergy (0.1.0)
+
+DEPENDENCIES:
+  - HTTPCnergy (from `../`)
+
+EXTERNAL SOURCES:
+  HTTPCnergy:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HTTPCnergy: 56c93538711cdedb27cd433ed1f758a1322ef8fd
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,25 @@
+{
+  "name": "HTTPCnergy",
+  "version": "0.1.0",
+  "summary": "A short description of HTTPCnergy.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HTTPCnergy",
+  "license": "MIT",
+  "authors": {
+    "Melvin Musehani": "info@appchemy.co.za"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HTTPCnergy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HTTPCnergy": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
