@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HTTPCnergy"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "Provides managable coding principles to manage HTTP requests in your Swift code."
 
 # This description is used to generate tags and improve search results.

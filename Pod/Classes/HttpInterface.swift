@@ -54,7 +54,7 @@ class HttpInterface: NSObject
         let task = session.dataTaskWithRequest(request){
             (data, response, error) -> Void in
             
-            if let error = error {
+            if let _ = error {
                 self.delegate?.onNetworkError("Network Error")
             }
             else {

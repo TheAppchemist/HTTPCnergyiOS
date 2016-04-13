@@ -30,7 +30,7 @@ public class Processor: NSObject, HttpInterfaceDelegate
         if let http = http {
             http.cancel()
             
-            if let delegate = delegate {
+            if let _ = delegate {
                 //delegate.onProcessFinished(request)
             }
         }
